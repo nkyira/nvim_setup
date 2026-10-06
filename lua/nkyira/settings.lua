@@ -5,6 +5,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.mouse = a
 vim.opt.scrolloff = 22
+vim.cmd("tnoremap <Esc> <C-\\><C-n>")
 vim.cmd("highlight Normal guibg=#000000")
 vim.cmd("highlight NormalNC guibg=#000000")
 vim.cmd("highlight NvimTreeNormal guibg=#000000")

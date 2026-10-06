@@ -10,6 +10,14 @@ map("n", "<leader>q", ":q<CR>", opts)
 map("n", "<leader>Q", ":q!<CR>", opts)
 map("n", "<leader>c", ":noh<CR>", opts)
 
+map("n", "<leader><Tab>", ":bn<CR>", opts)
+map("n", "<leader><S-Tab>", ":bp<CR>", opts)
+
+map("n", "<Tab>", "<C-W>w", opts)
+
+map("n", "<leader>v", ":vsplit<CR>", opts)
+map("n", "<leader>s", ":split<CR>", opts)
+
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
 map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
 map("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
@@ -17,6 +25,7 @@ map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts)
 
 map("n", "<leader>e", ":NvimTreeFocus<cr>", opts)
 map("n", "<leader>t", ":NvimTreeToggle<cr>", opts)
+
 
 map("n", "<leader>h", vim.diagnostic.open_float, opts)
 
